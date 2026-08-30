@@ -1,0 +1,18 @@
+{
+  "name": "Epic OS",
+  "short_name": "Epic OS",
+  "description": "First-run for Epic Cloudflare OS: add a model, create a workspace, talk to Grok.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00f3ff",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
