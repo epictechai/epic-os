@@ -29,11 +29,19 @@ Open [http://127.0.0.1:43173](http://127.0.0.1:43173).
 
 ## Deploy to Cloudflare
 
+Live Worker (new, does not replace production `epic-cfos-workshop`):
+
+[https://epic-os.spyke6009.workers.dev](https://epic-os.spyke6009.workers.dev)
+
+Account `524a87e324a5a3515fb6746e9567aff0`. Use `pnpm run deploy` — plain `pnpm deploy` is pnpm’s package publisher, not this script.
+
 ```bash
-pnpm deploy
+CLOUDFLARE_ACCOUNT_ID=524a87e324a5a3515fb6746e9567aff0 pnpm run deploy
 ```
 
-That builds with OpenNext and publishes the `epic-os` Worker. Point a route at it if you want it on `os.epictechai.app` — do not overwrite `epic-cfos-workshop` until you mean to.
+Point a route at this Worker if you want it on `os.epictechai.app`. Do not overwrite `epic-cfos-workshop` until you mean to.
+
+Intended GitHub home is `Sm0k367/epic-os`. This tree is also on [epictechai/epic-os](https://github.com/epictechai/epic-os) until that transfer happens.
 
 ## Stack
 
